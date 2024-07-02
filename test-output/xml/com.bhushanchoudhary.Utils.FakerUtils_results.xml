@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APITesting-RestAssureAPIFramework"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.297">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getFirstName"
+                time="0.297"
+                classname="com.bhushanchoudhary.Utils.FakerUtils">
+            </testcase>
+</testsuite>

@@ -1,0 +1,28 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í¨½8ã©´ó†2J$648d4b84-eaf0-4861-9695-892239bcc478
+—
+java:S1104"TMake BASE_URL a static final constant or non-public and provide accessors if needed.(à‹À8«ß·ó†2J$7ab02d77-c2b5-4d61-9ced-89a748817cdf
+¨
+java:S1104"eMake CREATE_UPDATE_BOOKING_URL a static final constant or non-public and provide accessors if needed.(ÖÿÃ8¬ß·ó†2J$6b3f43ce-6801-40e9-85be-4912347822ef
+—
+java:S1104"TMake AUTH_URL a static final constant or non-public and provide accessors if needed.(ËÃûé8¬ß·ó†2J$2210b5ed-48b7-40eb-8caa-539b8aaa9069
+œ
+java:S1104"TMake PING_URL a static final constant or non-public and provide accessors if needed.(ä—×Õûÿÿÿÿ8¬ß·ó†2J$3e1f3439-9b01-4a8b-9001-a3e322925fcf
+q
+java:S1444".Make this "public static BASE_URL" field final(à‹À8Ğß·ó†2J$d21b8650-d9de-40cb-aaba-27fae7e6cde7
+‚
+java:S1444"?Make this "public static CREATE_UPDATE_BOOKING_URL" field final(ÖÿÃ8Ğß·ó†2J$9349d7e9-f6f5-47bb-a1ec-cede286f852f
+q
+java:S1444".Make this "public static AUTH_URL" field final(ËÃûé8Ğß·ó†2J$d4495885-76a7-48d0-9a15-fabe353818d5
+v
+java:S1444".Make this "public static PING_URL" field final(ä—×Õûÿÿÿÿ8Ñß·ó†2J$18541ac1-c23e-4dba-8ba5-241500d5a299
+–
+java:S3008"SRename this field "BASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à‹À8Ôß·ó†2J$ad0f6b0e-ca48-45ac-b31e-5f1b40043f91
+§
+java:S3008"dRename this field "CREATE_UPDATE_BOOKING_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÿÃ8Ôß·ó†2J$ae1068dd-2881-4e78-9589-a8c30bd483de
+–
+java:S3008"SRename this field "AUTH_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÃûé8Ôß·ó†2J$bbfefee9-b18e-4c32-9317-6ee43bec99ae
+›
+java:S3008"SRename this field "PING_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä—×Õûÿÿÿÿ8Ôß·ó†2J$55499668-3b72-45f7-bcb9-5fc35253af6b
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(ó‡é‹ıÿÿÿÿ8Èà·ó†2J$717372ce-47ee-4c44-bf60-1a2dabf42c48
