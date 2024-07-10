@@ -34,6 +34,15 @@ Hsrc/test/java/com/bhushanchoudhary/Tests/CRUD/testCreateBookingTest.java,4\e\4
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-:
-
-testng.xml,5\2\522a7a4e21649af06297e31a9e33f13bb4fd3022
+I
+testngIntegrationFile.xml,f\b\fb94fe552cc016675573d95e498b1b559b7c8563
+
+Qsrc/test/java/com/bhushanchoudhary/Tests/Integration/TestCaseIntegrationFlow.java,6\c\6cb6f1b4288a22f77428fd7299661ab966cc8620
+>
+testngCRUD.xml,5\1\5144ebd3df2f8b963f3da080e0d1065fbd097fb9
+l
+<src/test/java/com/bhushanchoudhary/Utils/PropertyReader.java,0\b\0bcc97c3b82bcea5ff4e42fb76c82135dc120af6
+x
+Hsrc/test/java/com/bhushanchoudhary/Utils/PropertyReaderOptimization.java,5\2\52c3d921b57732a9070a75a552a7473f7edea9f1
+h
+8src/test/java/com/bhushanchoudhary/Utils/UtilsExcel.java,1\b\1b78a401fa8e0bd8ac735d90f8a96342867121c6

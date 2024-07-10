@@ -38,7 +38,7 @@
     <version>1.2.2</version>
   </dependency>
 
-  <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-maven -->
+
   <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
   <dependency>
     <groupId>io.qameta.allure</groupId>
@@ -79,6 +79,21 @@
     <artifactId>json-schema-validator</artifactId>
     <version>5.4.0</version>
   </dependency>
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>5.2.3</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.2.3</version>
+    </dependency>
+
+
 
   </dependencies>
 

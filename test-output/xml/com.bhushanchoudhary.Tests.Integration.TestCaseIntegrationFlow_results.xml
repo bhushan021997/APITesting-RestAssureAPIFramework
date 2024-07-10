@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APITesting-RestAssureAPIFramework"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.279">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createBooking"
+                time="1.830"
+                classname="com.bhushanchoudhary.Tests.Integration.TestCaseIntegrationFlow">
+            </testcase>
+            <testcase
+                name="getBooking"
+                time="0.478"
+                classname="com.bhushanchoudhary.Tests.Integration.TestCaseIntegrationFlow">
+            </testcase>
+            <testcase
+                name="updateBooking"
+                time="0.490"
+                classname="com.bhushanchoudhary.Tests.Integration.TestCaseIntegrationFlow">
+            </testcase>
+            <testcase
+                name="deleteBooking"
+                time="0.481"
+                classname="com.bhushanchoudhary.Tests.Integration.TestCaseIntegrationFlow">
+            </testcase>
+</testsuite>

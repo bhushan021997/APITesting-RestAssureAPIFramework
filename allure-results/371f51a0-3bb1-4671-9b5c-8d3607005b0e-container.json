@@ -1,0 +1,1 @@
+{"uuid":"371f51a0-3bb1-4671-9b5c-8d3607005b0e","name":"APITesting-RestAssureAPIFramework","children":["2704e05f-4db8-41c9-809f-a52c72ccfbdf"],"befores":[{"name":"setConfig","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1720187701900,"stop":1720187702673}],"afters":[],"start":1720187701869,"stop":1720187704732}

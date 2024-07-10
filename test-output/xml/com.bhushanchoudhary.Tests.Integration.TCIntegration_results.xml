@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="D:/Java/APITesting-RestAssureAPIFramework/src/test/java/com/bhushanchoudhary/Tests/Integration/TCIntegration.java"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.098">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createBooking"
+                time="0.081"
+                classname="com.bhushanchoudhary.Tests.Integration.TCIntegration">
+            </testcase>
+            <testcase
+                name="getBooking"
+                time="0.000"
+                classname="com.bhushanchoudhary.Tests.Integration.TCIntegration">
+            </testcase>
+            <testcase
+                name="updateBooking"
+                time="0.009"
+                classname="com.bhushanchoudhary.Tests.Integration.TCIntegration">
+            </testcase>
+            <testcase
+                name="deleteBooking"
+                time="0.008"
+                classname="com.bhushanchoudhary.Tests.Integration.TCIntegration">
+            </testcase>
+</testsuite>

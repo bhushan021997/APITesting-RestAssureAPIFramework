@@ -1,13 +1,18 @@
 package com.bhushanchoudhary.Modules;
 
-import com.bhushanchoudhary.POJOS.Booking;
-import com.bhushanchoudhary.POJOS.BookingDates;
-import com.bhushanchoudhary.POJOS.BookingResponse;
+import com.bhushanchoudhary.POJOS.*;
 import com.google.gson.Gson;
 
 
-public class PayloadManager {
+
+
+public class PayloadManager{
+
     Gson gson;
+
+
+
+
 
     public String createPayloadBookingAsString() {
         Booking booking = new Booking();
@@ -32,7 +37,6 @@ public class PayloadManager {
     public String createInvalildPayloadBookingAsString() {
 
 
-
         return "{}";
 
 
@@ -40,7 +44,7 @@ public class PayloadManager {
 
     public String updatePayloadBookingAsString() {
         Booking booking = new Booking();
-        booking.setFirstname("Mahes");
+        booking.setFirstname("Mahesh");
         booking.setLastname("Paradkar");
         booking.setTotalprice(1111);
         booking.setDepositpaid(true);
@@ -66,5 +70,41 @@ public class PayloadManager {
 
 
     }
+
+    public String setPayLoad() {
+
+        Auth auth = new Auth();
+        auth.setUsername("admin");
+        auth.setPassword("password123");
+        gson = new Gson();
+        String jsonPayload = gson.toJson(auth);
+        System.out.println(jsonPayload);
+        return jsonPayload;
+
+
+    }
+
+    public String getToken(String tokenResponse) {
+
+        gson = new Gson();
+        //Response (JSON String) -->> Object
+        //Deserialization
+        TokenResponse tokenresponse1 = gson.fromJson(tokenResponse, TokenResponse.class);
+        return tokenresponse1.getToken();
+
+
+    }
+
+    public Booking getResponseFromJSON(String getResponse) {
+        gson = new Gson();
+        //DSERV
+        Booking booking = gson.fromJson(getResponse, Booking.class);
+        return booking;
+    }
+
+
+
+
+    // Payload
 
 }

@@ -1,4 +1,7 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®‚˜8ÌÊ½›‡2
-‰
-java:S1488@"gImmediately return this expression instead of assigning it to the temporary variable "bookingResponse".(¶¯õúÿÿÿÿ8ÑÊ½›‡2
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®‚˜8›ÖŸÇ‡2J$6883e281-2ff6-439a-ac4f-b75e29c2176d
+¯
+java:S1488>"gImmediately return this expression instead of assigning it to the temporary variable "bookingResponse".(¶¯õúÿÿÿÿ8›ÖŸÇ‡2J$9d5dde29-6e26-4e5a-aecb-bdd2626fcfb9
+¢
+java:S1488a"_Immediately return this expression instead of assigning it to the temporary variable "booking".(ÆŠ‚¹8æ”¤Ç‡2J$9380470c-3205-4180-b57e-6767b6dc00cb
+r	java:S106K"+Replace this use of System.out by a logger.(³šêÊùÿÿÿÿ8ªÖŸÇ‡2J$b95dfa70-c9b6-478c-aecb-6ab486b14679

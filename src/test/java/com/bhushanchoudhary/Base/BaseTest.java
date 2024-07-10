@@ -4,7 +4,9 @@ import com.bhushanchoudhary.Actions.AssertActions;
 import com.bhushanchoudhary.Endpoints.APIConstants;
 import com.bhushanchoudhary.Modules.PayloadManager;
 import com.bhushanchoudhary.POJOS.BookingResponse;
+import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
@@ -34,10 +36,35 @@ public class BaseTest {
                 .build().log().all();
     }
 
-    public String token()
-    {
-        return null;
+    public String getToken() {
+
+//Setup the URl's
+        requestspecification = RestAssured.given().baseUri(APIConstants.BASE_URL)
+                .basePath(APIConstants.AUTH_URL);
+
+//Setting up the payload
+        String payload = payloadManager.setPayLoad();
+
+
+//Getting the response
+        response= requestspecification.contentType(ContentType.JSON)
+                .body(payload)
+                .when().post();
+
+//Extracting the token via Dsaer
+        String token = payloadManager.getToken(response.asString());
+
+//Verify
+        return token;
+
+
+
+
+
     }
+
+
+
 
 
 }

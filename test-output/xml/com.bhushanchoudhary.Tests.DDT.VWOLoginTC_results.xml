@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APITesting-RestAssureAPIFramework"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.351">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testVWOLogin"
+                time="7.921"
+                classname="com.bhushanchoudhary.Tests.DDT.VWOLoginTC">
+            </testcase>
+            <testcase
+                name="testVWOLogin"
+                time="0.430"
+                classname="com.bhushanchoudhary.Tests.DDT.VWOLoginTC">
+            </testcase>
+</testsuite>

@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="D:/Java/APITesting-RestAssureAPIFramework/src/test/java/com/bhushanchoudhary/Tests/CRUD/testCreateBookingTest.java">
-        <classes>
-            <class name="com.bhushanchoudhary.Tests.CRUD.testCreateBookingTest">
-                <methods>
-                    <include name="createBooking"/>
-                    <include name="createBookingNegative"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="D:/Java/APITesting-RestAssureAPIFramework/src/test/java/com/bhushanchoudhary/Tests/Integration/TestCaseIntegrationFlow.java"><classes><class name="com.bhushanchoudhary.Tests.Integration.TestCaseIntegrationFlow"><methods><include name="createBooking"/><include name="getBooking"/><include name="updateBooking"/></methods></class></classes></test></suite>
